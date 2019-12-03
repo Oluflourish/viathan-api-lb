@@ -1,0 +1,60 @@
+{
+  "name": "Staff",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "staff_id": {
+      "type": "string",
+      "required": true
+    },
+    "accessLevel": {
+      "type": "string",
+      "required": true
+    },
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "updated_at": {
+      "type": "date"
+    },
+    "contact_name_1": {
+      "type": "string"
+    },
+    "contact_phone_1": {
+      "type": "number"
+    },
+    "contact_email_1": {
+      "type": "string"
+    },
+    "contact_name_2": {
+      "type": "string"
+    },
+    "contact_phone_2": {
+      "type": "number"
+    },
+    "contact_email_2": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

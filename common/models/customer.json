@@ -1,0 +1,154 @@
+{
+  "name": "Customer",
+  "plural": "Customers",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "metre": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "string"
+    },
+    "gps_coordinate": {
+      "type": "number"
+    },
+    "contact_name_1": {
+      "type": "string",
+      "required": true
+    },
+    "contact_phone_1": {
+      "type": "string",
+      "required": true
+    },
+    "contact_email_1": {
+      "type": "string",
+      "required": true
+    },
+    "contact_name_2": {
+      "type": "string"
+    },
+    "contact_phone_2": {
+      "type": "string"
+    },
+    "contact_email_2": {
+      "type": "string"
+    },
+    "delivery_term": {
+      "type": "string",
+      "required": true
+    },
+    "min_chargeable_energy": {
+      "type": "number",
+      "required": true
+    },
+    "tenor": {
+      "type": "number",
+      "required": true
+    },
+    "energy_demand": {
+      "type": "number",
+      "required": true
+    },
+    "energy_cap": {
+      "type": "number",
+      "required": true
+    },
+    "tariff": {
+      "type": "number",
+      "required": true
+    },
+    "excess_use_tariff": {
+      "type": "number",
+      "required": true
+    },
+    "connection_funding": {
+      "type": "boolean",
+      "required": true
+    },
+    "payment_security": {
+      "type": "number",
+      "required": true
+    },
+    "min_uptime": {
+      "type": "number",
+      "required": true
+    },
+    "no_of_schedule_maintenance": {
+      "type": "number",
+      "required": true
+    },
+    "payment_terms": {
+      "type": "number",
+      "required": true
+    },
+    "invoicing_date": {
+      "type": "date",
+      "required": true
+    },
+    "plant_location": {
+      "type": "string",
+      "required": true
+    },
+    "connection_point": {
+      "type": "string",
+      "required": true
+    },
+    "transformer_size": {
+      "type": "string"
+    },
+    "transformer_rating": {
+      "type": "string"
+    },
+    "transformer_make": {
+      "type": "string"
+    },
+    "medium_of_connection": {
+      "type": "string",
+      "required": true
+    },
+    "rmu_serial_number": {
+      "type": "number"
+    },
+    "rmu_type": {
+      "type": "string"
+    },
+    "rmu_year_month": {
+      "type": "string"
+    },
+    "rmu_make": {
+      "type": "string"
+    },
+    "meter_number": {
+      "type": "number"
+    },
+    "meter_type": {
+      "type": "string"
+    },
+    "meter_payment": {
+      "type": "string"
+    },
+    "meter_vendor": {
+      "type": "string"
+    },
+    "connection_date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
