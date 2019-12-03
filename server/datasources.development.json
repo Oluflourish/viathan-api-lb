@@ -4,7 +4,7 @@
     "connector": "memory"
   },
   "mongodb": {
-    "url": "",
+    "url": "mongodb://admin:admin1234@ds251618.mlab.com:51618/heroku_9vp67ld1",
     "useNewUrlParser": true,
     "connector": "mongodb"
   }
